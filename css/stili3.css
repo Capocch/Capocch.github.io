@@ -1,0 +1,188 @@
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 20px;
+	background-image: url(../img/sfondo.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+}
+#header {
+	background-color: #41504c;
+	position: relative;
+	height: 150px;
+}
+#logo{
+	height: 150px;
+	padding: auto;
+}
+#menu1 {
+	margin-top: 100px;
+	margin-right: 20px;
+	float: right;
+}
+#menu1 li {
+    font-size: 10px;
+	display: block;
+    list-style: none;
+    border-bottom: 5px solid #343636;
+    width: 150px;
+    margin: 2px;
+	float: right;
+}
+#menu1 li a {
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: none;
+    width: 150px;
+    text-align: center;
+	text-transform: uppercase;
+}
+#menu1 li a:hover {
+	color: #dbd2d2;
+	opacity: 1;
+}
+#ColonnaPrincipale {
+	height: 450px;
+	width: 100%;
+}
+h1{
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#Postazioni{
+	margin: 80px;
+	height: 550px;
+	border-bottom: 2px solid #41504c;
+}
+h3{
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.div1{
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	float: left;
+	margin-left: 10px;
+}
+.div1 img{
+	width: 515px;
+	height: 380px;
+	border: 2px solid #41504c;
+	padding: 2px;
+}
+#postazione2{
+	margin-right: 17px;
+	margin-left: 17px;
+}
+#postazione3{width: 570px;}
+#Automobilismo{
+	margin: 20px;
+	margin-bottom: 80px;
+	height: 1217px;
+	border-bottom: 2px solid #41504c;
+}
+.div2{
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	float: left;
+	margin-left: 10px;
+}
+.div2 img{
+	width: 440px;
+	height: 520px;
+	border: 2px solid #41504c;
+	padding: 2px;
+}
+#kart{
+	width: 600px; 
+	height: 500px;
+	margin-right: 10px;
+}
+#RR{
+	width: 680px; 
+	height: 480px;
+	margin-left: 10px;
+}
+#auto{
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	float: left;
+	margin-left: 10px;
+	margin-top: 35px;
+	margin-left: 500px;
+}
+#auto img{
+	width: 700px;
+	border: 2px solid #41504c;
+	padding: 2px;
+}
+#Bici{
+	margin: 20px;
+	margin-bottom: 80px;
+	height: 700px;
+	border-bottom: 2px solid #41504c;
+}
+.div3{
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	float: left;
+	margin-left: 45px;
+}
+.div3 img{
+	width: 420px;
+	height: 560px;
+	border: 2px solid #41504c;
+	padding: 2px;
+}
+#mtb1{
+	width: 750px;
+	height: 500px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#Calcio{
+	margin: 5px;
+	margin-bottom: 50px;
+	height: 700px;
+}
+.div4{
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	float: left;
+	margin-left: 22px;
+}
+.div4 img{
+	width: 580px;
+	height: 500px;
+	border: 2px solid #41504c;
+	padding: 2px;
+}
+#footer {
+	background-color: #41504c;
+	clear: left;
+	height: auto;
+	width: 100%;
+}
+.social{
+	display: inline-block;
+	padding: 20px 8px 8px 10px;
+}
+.social img{
+	margin: 5px;
+	height: 40px;
+}
+#footerbox{
+	text-align: center;
+	font-size: 10px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+#contatti{font-size: 20px;}
