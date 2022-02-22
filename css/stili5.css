@@ -1,0 +1,67 @@
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 20px;
+	background: url(../img/sfondo.jpg);
+}
+#header {
+	background-color: #41504c;
+	position: relative;
+	height: 150px;
+}
+#logo{
+	height: 150px;
+	padding: auto;
+}
+#menu1 {
+	margin-top: 100px;
+	margin-right: 20px;
+	float: right;
+}
+#menu1 li {
+    font-size: 10px;
+	display: block;
+    border-bottom: 5px solid #343636;
+    width: 150px;
+    margin: 2px;
+	float: right;
+}
+#menu1 li a {
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: none;
+    width: 150px;
+    text-align: center;
+	text-transform: uppercase;
+}
+#menu1 li a:hover {
+	color: #dbd2d2;
+	opacity: 1;
+}
+#ColonnaPrincipale {
+	float: left;
+	height: 670px;
+	width: 75%;
+} 
+#footer {
+	background-color: #41504c;
+	clear: left;
+	height: auto;
+	width: 100%;
+}
+.social{
+	display: inline-block;
+	padding: 20px 8px 8px 10px;
+}
+.social img{
+	margin: 5px;
+	height: 40px;
+}
+#footerbox{
+	text-align: center;
+	font-size: 10px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+#contatti{font-size: 20px;}
