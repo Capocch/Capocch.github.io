@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head> 
+        <title> es1js </title> <link rel="stylesheet" href="../css/stili.css" type="text/css"/>
+        <script type="text/javascript"> 
+            function funzioneProdotto(){
+                var numero1=document.forms["due_numeri"]["n1"].value;
+                var numero2=document.forms["due_numeri"]["n2"].value;
+                risultato=numero1*numero2;
+                window.alert("Risultato: " + risultato);
+            }
+        </script>
+    </head>
+    <body>
+        <h1> Inserire Dati</h1>
+        <form id="calcolatrice" name="due_numeri">
+            <label> primo numero </label> <input type="number" name="n1"> <br><br>
+            <label> secondo numero </label> <input type="number" name="n2"> <br><br>
+            <input type="button" value="calcola!" onclick="funzioneProdotto()">
+        </form> 
+    </br> <a href="../tipsit.html"> Torna indietro </a>
+    </body>
+</html>

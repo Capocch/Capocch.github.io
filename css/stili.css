@@ -1,0 +1,10 @@
+h1{
+    padding-left: 100px;
+}
+#calcolatrice {
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+}

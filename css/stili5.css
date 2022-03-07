@@ -41,9 +41,31 @@ body {
 }
 #ColonnaPrincipale {
 	float: left;
-	height: 670px;
-	width: 75%;
+	height: 680px;
+	width: 100%;
 } 
+#ColonnaMenu {
+	background-color: #abc7bf;
+	height: 650px;
+	width: 60%;
+	margin-left: 20%;
+	padding: 10px;
+}
+#menu li {
+	font-size: 20px;
+	margin: 20px;
+	text-align: center;
+}
+#menu li a {
+	color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+	text-transform: uppercase;
+}
+#menu li a:hover {
+	color: #dbd2d2;
+	opacity: 1;
+}
 #footer {
 	background-color: #41504c;
 	clear: left;
