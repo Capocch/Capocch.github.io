@@ -1,10 +1,33 @@
-h1{
-    padding-left: 100px;
+#calcolatrice{
+    margin-left: 40%;
 }
-#calcolatrice {
+#calcolatrice h1{
+    margin-left: 35px;
+}
+#calcolatrice form {
     border-style: solid;
     border-color: black;
-    padding: 5px;
+    padding: 8px;
     width: 20%;
     text-align: center;
+}
+#calcolatrice a{
+    margin-left: 78px;
+}
+
+#diecinum{
+    margin-left: 40%;
+}
+#diecinum h1{
+    margin-left: 45px;
+}
+#diecinum form {
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+    width: 20%;
+    text-align: center;
+}
+#diecinum a{
+    margin-left: 78px;
 }
