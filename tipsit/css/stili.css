@@ -1,0 +1,16 @@
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 20px;
+	background: url(../../img/sfondo.jpg);
+}
+.div {
+    text-align: center;
+}
+.div form {
+        border-style: solid;
+        border-color: black;
+        padding: 8px;
+        width: 20%;
+        text-align: center;
+        margin-left: 39%;
+}

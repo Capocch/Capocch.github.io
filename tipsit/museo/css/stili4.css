@@ -1,0 +1,112 @@
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 20px;
+    color: #fff;
+	background-image: url(../../../img/museo/sfondo.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+}
+#header {
+	background-color: #9c7e5f;
+	position: relative;
+	height: 165px;
+}
+#logo{
+	height: 150px;
+    padding: 8px 0px 8px 12px;
+}
+#menu1 {
+	margin-top: 100px;
+	margin-right: 20px;
+	float: right;
+}
+#menu1 li {
+    font-size: 10px;
+	display: block;
+    list-style: none;
+    border-bottom: 5px solid rgb(255, 255, 255, 0.7);
+    width: 150px;
+    margin: 2px;
+	float: right;
+}
+#menu1 li a {
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: none;
+    width: 150px;
+    text-align: center;
+	text-transform: uppercase;
+}
+#menu1 li a:hover {
+	color: #dbd2d2;
+	opacity: 1;
+}
+#ColonnaPrincipale {
+	height: 670px;
+	width: 100%;
+	text-transform: uppercase;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+#form1{
+	width: 600px;
+	height: 560px;
+	margin: 10px auto;
+	padding: 25px;
+	border-radius: 18px;
+	overflow: hidden;
+}
+#form1 h1{
+	color: rgb(0, 0, 0, 1);
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+label, input {
+	color: rgb(0, 0, 0, 1);
+	float: left;
+	font-family: Verdana, sans-serif; 
+	margin: 11px 0;
+}
+label { 
+	display: block; 
+	line-height: 30px; 
+	width: 150px; 
+}
+input { 
+	background: #9c7e5f;
+	opacity: 0.8; 
+	border: 1px solid #323232;
+	height: 30px; 
+	line-height: 30px; 
+	width: 300px; 
+	padding: 5px;
+	border-radius: 8px;
+	padding-left: 30px;
+}
+select{
+	height: 30px;
+	line-height: 30px; 
+	width: 120px; 
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 25px;
+	background: #9c7e5f;
+	opacity: 0.8;  
+}
+.radio{
+	width: 20px;
+}
+#Submit{
+	padding: 0;
+	width: 100px;
+	border: 2px solid #41504c;
+	border-radius: 12px;
+}
+#Submit:hover{
+	background: #9c7e5f;
+	opacity: 0.7;
+}
