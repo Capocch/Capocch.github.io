@@ -55,6 +55,7 @@ body {
 	font-size: 20px;
 	margin: 20px;
 	text-align: center;
+	display: block;
 }
 #menu li a {
 	color: #fff;
@@ -87,3 +88,11 @@ body {
 	padding-top: 2px;
 }
 #contatti{font-size: 20px;}
+#contatti a{
+	color: black;
+	text-decoration: none;
+}
+#contatti a:hover{
+	color: #1a1515;
+	opacity: 1;
+}

@@ -16,7 +16,7 @@ body {
     padding: 8px 0px 8px 12px;
 }
 #menu1 {
-	margin-top: 100px;
+	margin-top: 118px;
 	margin-right: 20px;
 	float: right;
 }
@@ -28,6 +28,9 @@ body {
     width: 150px;
     margin: 2px;
 	float: right;
+}
+li#indietro{
+	margin-left: 485px;
 }
 #menu1 li a {
     color: #fff;

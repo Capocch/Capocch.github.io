@@ -114,3 +114,11 @@ textarea {
 	padding-top: 2px;
 }
 #contatti{font-size: 20px;}
+#contatti a{
+	color: black;
+	text-decoration: none;
+}
+#contatti a:hover{
+	color: #1a1515;
+	opacity: 1;
+}

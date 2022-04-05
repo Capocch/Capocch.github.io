@@ -16,7 +16,7 @@ body {
     padding: 8px 0px 8px 12px;
 }
 #menu1 {
-	margin-top: 100px;
+	margin-top: 118px;
 	margin-right: 20px;
 	float: right;
 }
@@ -28,6 +28,9 @@ body {
     width: 150px;
     margin: 2px;
 	float: right;
+}
+li#indietro{
+	margin-left: 485px;
 }
 #menu1 li a {
     color: #fff;
@@ -54,11 +57,12 @@ a{
 }
 #form1{
 	width: 600px;
-	height: 560px;
+	height: 620px;
 	margin: 10px auto;
 	padding: 25px;
 	border-radius: 18px;
 	overflow: hidden;
+	margin-left: 35%;
 }
 #form1 h1{
 	color: rgb(0, 0, 0, 1);
@@ -98,7 +102,7 @@ select{
 	opacity: 0.8;  
 }
 .radio{
-	width: 20px;
+	width: 15px;
 }
 #Submit{
 	padding: 0;
