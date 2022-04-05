@@ -79,13 +79,8 @@ span{
 	color: #fff;
 	font-size: 40px;
 	text-shadow: 0  2px  0   #694e25,
-	0  2px  0   #5c4521,
-	0  5px  0   #503c1c,
-	0  6px  0   #433218,
-	0 8px  0   #292013,
-	0 10px  0   #454341,
-	2px 6px 12px rgba(0,0,0,0.1),
-	2px 6px  4px rgba(0,0,0,0.3); 	
+	0  2px  0   #5c4521, 0  5px  0   #503c1c, 0  6px  0   #433218, 0 8px  0   #292013, 0 10px  0   #454341,
+	2px 6px 12px rgba(0,0,0,0.1), 2px 6px  4px rgba(0,0,0,0.3); 	
 }
 #footer {
 	background-color: #41504c;
