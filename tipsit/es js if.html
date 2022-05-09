@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head> 
+        <title> es js if </title>
+        <link rel="stylesheet" href="css/stili.css" type="text/css"/>
+        <script type="text/javascript">
+            function seMaggiore18(){
+                var N = document.getElementById('num').value;
+                var image = document.getElementById('img1');
+                if(N>18){
+                    image.src = "img/luna.jpg";
+                }
+                else{
+                    image.src = "img/sole.jpg";
+                }
+            }
+        </script> 
+    </head>    
+    <body>  
+        <div class="div"> 
+            <form> 
+                <input type="text" name="text" id="num">
+                <input type="button" name="button" value="verifica" onclick="seMaggiore18()"> <br> <br>
+                <img id="img1">
+            </form>
+            <br>
+            <a href="../tipsit.html"> Torna indietro </a>
+        </div>
+    </body>
+</html>
