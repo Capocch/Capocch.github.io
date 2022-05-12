@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head> 
+        <title> Semaforo Voti </title>
+        <link rel="stylesheet" href="css/stili.css" type="text/css"/>
+        <script type="text/javascript"> 
+            function valutaVoto(){
+                var select = document.getElementById("voti");
+                var val = select.selectedIndex;
+                var frase = document.getElementById("Frase");
+                if(val > 7){
+                    frase.innerHTML = "Ottimo voto";
+                    frase.style.color = '#008000';
+                }
+                else{
+                    if(val >= 5 && val <= 7){
+                        frase.innerHTML = "Sufficente";
+                        frase.style.color = '#FFA500';
+                    }
+                    else{
+                        if(val < 5){
+                            frase.innerHTML = "Insufficente";
+                            frase.style.color = '#FF0000';
+                        }
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body> 
+        <div class="div"> 
+            <form>   
+                <select id="voti"> 
+                    <option value="" selected> Scegli </option>
+                    <option value="1"> 1 </option>
+                    <option value="2"> 2 </option>
+                    <option value="3"> 3 </option>
+                    <option value="4"> 4 </option>
+                    <option value="5"> 5 </option>
+                    <option value="6"> 6 </option>
+                    <option value="7"> 7 </option>
+                    <option value="8"> 8 </option>
+                    <option value="9"> 9 </option>
+                    <option value="10"> 10 </option>
+                </select> <br> <br>
+            </form> 
+            <input type="submit" value="valuta" onclick="valutaVoto()"> <br> <br>
+            <div id="Frase"> </div> <br> 
+            <a href="../tipsit.html"> Torna indietro </a>
+        <div>
+    </body> 
+</html>
