@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <link rel="stylesheet" href="css/stili.css" type="text/css"/>
+        <title> Pari o Dispari </title>
+        <script>
+            function pariOdispari(){
+                var num = document.getElementById("numero").value;
+                if (num%2!=0){
+                    alert("1");
+                }
+                else{
+                    alert("0");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="div">
+            <form>
+                <input type="text" id="numero">
+                <input type="button" value="Verifica" onclick="pariOdispari()">  
+            </form> <br>
+            <a href="../tipsit.html"> Torna indietro </a>
+        </div>
+    </body>
+</html>
